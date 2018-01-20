@@ -24,4 +24,10 @@ int main(){
 	cout<<"Harga "<<(PANASONIC.tipe)<< "     : Rp. "<<(PANASONIC.harga)<<endl;
 	cout<<"Harga "<<(SHARP.tipe)<< " : Rp. "<<(SHARP.harga)<<endl;
 	cout<<"Harga "<<(LG.tipe)<< " : Rp. "<<(LG.harga)<<endl;
+	
+	PANASONIC.unggul1("1. Menggunakan sistem Nano-G \n2. Dilengkapi dengan mode Powerful \n3. Menggunakan sistem Econavi \n");
+}
+
+void AC::unggul1(string unggul1){
+	cout<<endl<<"Keunggulan PANASONIC Alowa     : "<<endl<<unggul1;
 }
