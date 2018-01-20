@@ -12,5 +12,16 @@ class AC{
 };
 
 int main(){
+		AC PANASONIC, SHARP, LG;
 	
+	PANASONIC.tipe="PANASONIC Alowa";
+	SHARP.tipe="SHARP Plasmacluster";
+	LG.tipe="LG Dual Cool Series";
+	PANASONIC.harga=2700000;
+	SHARP.harga=3300000;
+	LG.harga=2900000;
+	
+	cout<<"Harga "<<(PANASONIC.tipe)<< "     : Rp. "<<(PANASONIC.harga)<<endl;
+	cout<<"Harga "<<(SHARP.tipe)<< " : Rp. "<<(SHARP.harga)<<endl;
+	cout<<"Harga "<<(LG.tipe)<< " : Rp. "<<(LG.harga)<<endl;
 }
